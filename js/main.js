@@ -377,7 +377,7 @@ var profilesKey = 'darksouls3_profiles';
     }
 
     function buildThemeSelection() {
-        var style = $.jStorage.get("style") || "Standard";
+        var style = $.jStorage.get("style") || "Darkly";
         var themeSelect = $("#themes");
         $.each(themes, function(key, value){
             themeSelect.append(
